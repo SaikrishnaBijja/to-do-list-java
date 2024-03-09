@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color:#F5E8DD;
+  display:grid;
+  place-content:center;
+}
+.btn, .btn2{
+	border:none;
+	border-radius:5px;
+	
+}
+.btn:hover, .btn2:hover{
+	background-color:white;	
+}
+.btn{
+	background-color:#B5C0D0;	
+}
+.btn2{
+	background-color:#CCD3CA;	
+}
+
+#entry{
+	border-width:0 0 0 0;
+	background-color:#EED3D9;	
+	margin-bottom:50px;
+	
+}
+#entry:focus { 
+	outline: none; 
+	}
+
+input{
+	padding:10px 8px;
+}
+
+.box{
+position:relative;
+bottom:47px;
+left:175px;
+}
